@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C849AAFE2048693400775F95 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C849AAFD2048693400775F95 /* CategoryCell.swift */; };
+		C88C669A2043520200197CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C66992043520200197CC6 /* AppDelegate.swift */; };
+		C88C669C2043520200197CC6 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88C669B2043520200197CC6 /* DashboardController.swift */; };
+		C88C66A12043520200197CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88C66A02043520200197CC6 /* Assets.xcassets */; };
+		C88C66A42043520200197CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88C66A22043520200197CC6 /* LaunchScreen.storyboard */; };
+		C89BC45020555E830005BB72 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC44F20555E830005BB72 /* Models.swift */; };
+		C89BC4542055BCF10005BB72 /* CampaignInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC4532055BCF00005BB72 /* CampaignInfoController.swift */; };
+		C89BC45620561D440005BB72 /* CampaignPartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC45520561D440005BB72 /* CampaignPartsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C849AAFD2048693400775F95 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		C88C66962043520200197CC6 /* Healing Heart Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Healing Heart Moments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88C66992043520200197CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88C669B2043520200197CC6 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		C88C66A02043520200197CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88C66A32043520200197CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C88C66A52043520200197CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89BC44F20555E830005BB72 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C89BC4532055BCF00005BB72 /* CampaignInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignInfoController.swift; sourceTree = "<group>"; };
+		C89BC45520561D440005BB72 /* CampaignPartsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignPartsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88C66932043520200197CC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88C668D2043520200197CC6 = {
+			isa = PBXGroup;
+			children = (
+				C88C66982043520200197CC6 /* Healing Heart Moments */,
+				C88C66972043520200197CC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88C66972043520200197CC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88C66962043520200197CC6 /* Healing Heart Moments.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88C66982043520200197CC6 /* Healing Heart Moments */ = {
+			isa = PBXGroup;
+			children = (
+				C89BC4532055BCF00005BB72 /* CampaignInfoController.swift */,
+				C88C66992043520200197CC6 /* AppDelegate.swift */,
+				C88C669B2043520200197CC6 /* DashboardController.swift */,
+				C88C66A02043520200197CC6 /* Assets.xcassets */,
+				C88C66A22043520200197CC6 /* LaunchScreen.storyboard */,
+				C88C66A52043520200197CC6 /* Info.plist */,
+				C849AAFD2048693400775F95 /* CategoryCell.swift */,
+				C89BC44F20555E830005BB72 /* Models.swift */,
+				C89BC45520561D440005BB72 /* CampaignPartsCell.swift */,
+			);
+			path = "Healing Heart Moments";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88C66952043520200197CC6 /* Healing Heart Moments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88C66A82043520200197CC6 /* Build configuration list for PBXNativeTarget "Healing Heart Moments" */;
+			buildPhases = (
+				C88C66922043520200197CC6 /* Sources */,
+				C88C66932043520200197CC6 /* Frameworks */,
+				C88C66942043520200197CC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Healing Heart Moments";
+			productName = "Healing Heart Moments";
+			productReference = C88C66962043520200197CC6 /* Healing Heart Moments.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88C668E2043520200197CC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					C88C66952043520200197CC6 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C88C66912043520200197CC6 /* Build configuration list for PBXProject "Healing Heart Moments" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88C668D2043520200197CC6;
+			productRefGroup = C88C66972043520200197CC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88C66952043520200197CC6 /* Healing Heart Moments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88C66942043520200197CC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88C66A42043520200197CC6 /* LaunchScreen.storyboard in Resources */,
+				C88C66A12043520200197CC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88C66922043520200197CC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89BC45620561D440005BB72 /* CampaignPartsCell.swift in Sources */,
+				C88C669C2043520200197CC6 /* DashboardController.swift in Sources */,
+				C88C669A2043520200197CC6 /* AppDelegate.swift in Sources */,
+				C89BC4542055BCF10005BB72 /* CampaignInfoController.swift in Sources */,
+				C849AAFE2048693400775F95 /* CategoryCell.swift in Sources */,
+				C89BC45020555E830005BB72 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C88C66A22043520200197CC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88C66A32043520200197CC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88C66A62043520200197CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88C66A72043520200197CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88C66A92043520200197CC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDC6G8WHM3;
+				INFOPLIST_FILE = "Healing Heart Moments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Healing-Heart-Moments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88C66AA2043520200197CC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FDC6G8WHM3;
+				INFOPLIST_FILE = "Healing Heart Moments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sample.Healing-Heart-Moments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88C66912043520200197CC6 /* Build configuration list for PBXProject "Healing Heart Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88C66A62043520200197CC6 /* Debug */,
+				C88C66A72043520200197CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88C66A82043520200197CC6 /* Build configuration list for PBXNativeTarget "Healing Heart Moments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88C66A92043520200197CC6 /* Debug */,
+				C88C66AA2043520200197CC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88C668E2043520200197CC6 /* Project object */;
+}
